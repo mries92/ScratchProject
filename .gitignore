@@ -1,0 +1,37 @@
+*.dll
+x86/**
+x64/**
+Debug/**
+Incursion/x86/**
+Incursion/x64/**
+build/**
+.cache/**
+
+# vs
+.vs/**
+.vcxproj.filters
+.vcxproj.user
+
+# vscode
+.vscode/**
+.code-workspace
+
+# cmake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CPackConfig.cmake
+CPackSourceConfig.cmake
+DartConfiguration.tcl
+
+# Doxygen
+html/**
+latex/**
