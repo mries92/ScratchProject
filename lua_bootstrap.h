@@ -1,7 +1,6 @@
 #pragma once
 #include <lua.hpp>
 #include "lua_data.h"
-#include <entt/entity/registry.hpp>
 
 class Game;
 

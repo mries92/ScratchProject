@@ -5,6 +5,7 @@
 class Prototype
 {
 public:
+	virtual ~Prototype() { };
 	std::string GetId() { return id_; };
 	void SetId(std::string id) { id_ = id; };
 	std::string GetDescription() { return description_; };

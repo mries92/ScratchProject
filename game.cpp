@@ -1,9 +1,7 @@
 #include "game.h"
 
-Game::Game(SDL_Window *window) : window_(*window),
-                                 registry_(),
-                                 lua_(*this),
-                                 asset_manager_(*this)
+Game::Game() : lua_(*this),
+               asset_manager_(*this)
 {
 }
 
